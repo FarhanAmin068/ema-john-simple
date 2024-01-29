@@ -1,0 +1,12 @@
+.shop-container{
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+}
+/* Ekhetre grid use krbo karon shop e duita unit er size ekoi na ejjnw ekta 4fr 
+ekta 1fr space nibe */
+.products-container{
+    margin:50px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+}
